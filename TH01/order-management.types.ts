@@ -1,11 +1,5 @@
 /**
  * GIẢI THÍCH TỔNG QUAN THIẾT KẾ:
- * File này chứa toàn bộ hệ thống Type/Interface phục vụ module Quản lý đơn hàng.
- * Thiết kế tuân thủ các tiêu chí:
- * 1. Type Safety & Strict Typing: Không dùng `any`, đảm bảo kiểm soát kiểu dữ liệu 100%.
- * 2. Reusability (DRY): Sử dụng BaseEntity, Generics và các Utility Types (Omit, Partial, Pick, Readonly) để tái sử dụng code.
- * 3. Domain Integrity: Bảo vệ tính toàn vẹn dữ liệu tài chính/lịch sử thông qua kỹ thuật Snapshot & Immutability.
- */
 // 1. ENUMS (Định nghĩa tập hợp các giá trị trạng thái cố định trong hệ thống)
 /**
  * OrderStatus: Quản lý vòng đời (Lifecycle) của đơn hàng từ khi khởi tạo đến khi hoàn tất/hủy.
