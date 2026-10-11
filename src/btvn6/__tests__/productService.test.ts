@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { productService } from '../../th03/services/productService';
+import { productService } from '../../btvn3/services/productService';
 
 describe('Unit Test: productService (Simulated API Service)', () => {
   it('TC18 - [Service] getProducts: lấy danh sách sản phẩm mẫu thành công', async () => {

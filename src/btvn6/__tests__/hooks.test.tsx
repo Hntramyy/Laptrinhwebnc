@@ -2,10 +2,10 @@ import React from 'react';
 import { describe, it, expect } from 'vitest';
 import { renderHook, act } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import { useAppDispatch, useAppSelector } from '../../th03/app/hooks';
+import { useAppDispatch, useAppSelector } from '../../btvn3/app/hooks';
 import { setupTestStore } from './testUtils';
-import { addToCart } from '../../th03/features/cart/cartSlice';
-import type { Product } from '../../th03/features/products/productTypes';
+import { addToCart } from '../../btvn3/features/cart/cartSlice';
+import type { Product } from '../../btvn3/features/products/productTypes';
 
 const sampleProduct: Product = {
   id: 99,

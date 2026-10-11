@@ -4,7 +4,7 @@ import type { FavoriteProduct } from './favoritesTypes';
 import { ProductCard } from './components/ProductCard';
 import { FavoriteDrawer } from './components/FavoriteDrawer';
 import { ComparisonReview } from './ComparisonReview';
-import { MOCK_PRODUCTS } from '../th03/services/mockData';
+import { MOCK_PRODUCTS } from '../btvn3/services/mockData';
 import {
   Heart,
   Sparkles,

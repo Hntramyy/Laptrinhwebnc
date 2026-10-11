@@ -3,8 +3,8 @@ import { describe, it, expect, vi } from 'vitest';
 import '@testing-library/jest-dom/vitest';
 import { screen, fireEvent } from '@testing-library/react';
 import { renderWithProviders } from './testUtils';
-import { ProductCard } from '../../th03/features/products/ProductCard';
-import type { Product } from '../../th03/features/products/productTypes';
+import { ProductCard } from '../../btvn3/features/products/ProductCard';
+import type { Product } from '../../btvn3/features/products/productTypes';
 
 const mockProduct: Product = {
   id: 10,

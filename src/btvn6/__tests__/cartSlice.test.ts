@@ -13,10 +13,10 @@ import cartReducer, {
   selectCartDiscountAmount,
   selectCartShippingFee,
   selectCartFinalTotal,
-} from '../../th03/features/cart/cartSlice';
-import type { CartState } from '../../th03/features/cart/cartTypes';
-import type { Product } from '../../th03/features/products/productTypes';
-import type { RootState } from '../../th03/app/store';
+} from '../../btvn3/features/cart/cartSlice';
+import type { CartState } from '../../btvn3/features/cart/cartTypes';
+import type { Product } from '../../btvn3/features/products/productTypes';
+import type { RootState } from '../../btvn3/app/store';
 
 const mockProductA: Product = {
   id: 1,

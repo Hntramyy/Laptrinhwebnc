@@ -3,11 +3,11 @@ import { describe, it, expect, vi } from 'vitest';
 import '@testing-library/jest-dom/vitest';
 import { screen, fireEvent } from '@testing-library/react';
 import { renderWithProviders } from './testUtils';
-import { CartSummary } from '../../th03/features/cart/CartSummary';
-import { CartItemRow } from '../../th03/features/cart/CartItemRow';
-import { CartDrawer } from '../../th03/features/cart/CartDrawer';
-import type { Product } from '../../th03/features/products/productTypes';
-import type { CartItem } from '../../th03/features/cart/cartTypes';
+import { CartSummary } from '../../btvn3/features/cart/CartSummary';
+import { CartItemRow } from '../../btvn3/features/cart/CartItemRow';
+import { CartDrawer } from '../../btvn3/features/cart/CartDrawer';
+import type { Product } from '../../btvn3/features/products/productTypes';
+import type { CartItem } from '../../btvn3/features/cart/cartTypes';
 
 const mockProduct: Product = {
   id: 1,

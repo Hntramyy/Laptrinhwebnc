@@ -8,10 +8,10 @@ import productsReducer, {
   fetchProducts,
   fetchProductById,
   selectFilteredProducts,
-} from '../../th03/features/products/productsSlice';
-import type { Product, ProductsState } from '../../th03/features/products/productTypes';
-import { productService } from '../../th03/services/productService';
-import type { RootState } from '../../th03/app/store';
+} from '../../btvn3/features/products/productsSlice';
+import type { Product, ProductsState } from '../../btvn3/features/products/productTypes';
+import { productService } from '../../btvn3/services/productService';
+import type { RootState } from '../../btvn3/app/store';
 
 const mockProductList: Product[] = [
   {

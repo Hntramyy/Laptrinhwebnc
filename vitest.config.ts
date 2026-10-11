@@ -17,7 +17,7 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html', 'json', 'lcov'],
-      include: ['src/th03/features/cart/**'],
+      include: ['src/btvn3/features/cart/**'],
       thresholds: {
         lines: 70,
         functions: 70,
